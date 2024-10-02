@@ -21,7 +21,7 @@ def audio_to_mel(audio_file, sr=16000, n_fft=1024, hop_length=256, n_mels=256):
     return log_mel_spec
 # #
 # # # 指定输入的音频文件路径
-root='/Users/cxz/PycharmProjects/UMSS-demo/res'
+root=r"D:\WeChat Files\WeChat Files\wxid_y5ck9wiewtzm22\FileStorage\File\2024-10\T2Afeedback.github.io\T2Afeedback.github.io\res\quality\4\An adult male is speaking, and bees are buzzing.wav"
 for exp in os.listdir(root):
     for m in os.listdir(f'/{root}/{exp}'):
         for s in os.listdir(f'/{root}/{exp}/{m}'):
